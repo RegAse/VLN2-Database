@@ -63,6 +63,7 @@
     <Build Include="ProgrammingLanguages.sql" />
     <Build Include="Templates.sql" />
     <Build Include="Conversations.sql" />
+    <Build Include="ConversationHasMessage.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="VLN2 Database.refactorlog" />
