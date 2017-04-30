@@ -58,4 +58,10 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="Projects.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="VLN2 Database.refactorlog" />
+  </ItemGroup>
 </Project>
