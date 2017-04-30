@@ -68,6 +68,7 @@
     <Build Include="UserHasProject.sql" />
     <Build Include="Users.sql" />
     <Build Include="ProjectRoles.sql" />
+    <Build Include="UserRoles.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="VLN2 Database.refactorlog" />
