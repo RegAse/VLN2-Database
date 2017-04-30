@@ -4,5 +4,6 @@
     [Username] NVARCHAR(50) NOT NULL, 
     [DisplayName] NVARCHAR(50) NOT NULL, 
     [AboutMe] NVARCHAR(MAX) NULL, 
-    [UserRoleID] INT NOT NULL
+    [UserRoleID] INT NOT NULL, 
+    CONSTRAINT [FK_Users_UserRoles] FOREIGN KEY ([UserRoleID]) REFERENCES [UserRoles]([ID]) 
 )
