@@ -64,6 +64,7 @@
     <Build Include="Templates.sql" />
     <Build Include="Conversations.sql" />
     <Build Include="ConversationHasMessage.sql" />
+    <Build Include="Messages.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="VLN2 Database.refactorlog" />
