@@ -65,6 +65,7 @@
     <Build Include="Conversations.sql" />
     <Build Include="ConversationHasMessage.sql" />
     <Build Include="Messages.sql" />
+    <Build Include="UserHasProject.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="VLN2 Database.refactorlog" />
