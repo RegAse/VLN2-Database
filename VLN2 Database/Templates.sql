@@ -4,5 +4,6 @@
     [Name] NVARCHAR(MAX) NOT NULL, 
     [Description] NVARCHAR(MAX) NULL, 
     [Code] NVARCHAR(MAX) NOT NULL, 
-    [ProgrammingLanguageID] INT NOT NULL
+    [ProgrammingLanguageID] INT NOT NULL, 
+    CONSTRAINT [FK_Templates_ProgrammingLanguages] FOREIGN KEY ([ProgrammingLanguageID]) REFERENCES [ProgrammingLanguages]([ID])
 )
