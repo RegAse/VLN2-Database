@@ -68,7 +68,6 @@
     <Build Include="UserHasProject.sql" />
     <Build Include="ProjectRoles.sql" />
     <Build Include="Users.sql" />
-    <Build Include="Roles.sql" />
     <Build Include="UserClaims.sql" />
     <Build Include="UserLogins.sql" />
     <Build Include="UserRoles.sql" />
