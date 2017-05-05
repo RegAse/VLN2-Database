@@ -74,6 +74,7 @@
     <Build Include="UserRoles.sql" />
     <Build Include="UserHasRole.sql" />
     <Build Include="ProjectFiles.sql" />
+    <Build Include="Followers.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="VLN2 Database.refactorlog" />
