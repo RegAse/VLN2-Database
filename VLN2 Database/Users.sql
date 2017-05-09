@@ -12,6 +12,7 @@
     [AccessFailedCount]    INT            NOT NULL,
     [Username]             NVARCHAR (256) NOT NULL,
     [Displayname] NVARCHAR(256) NULL, 
+    [Description] NVARCHAR(MAX) NULL, 
     CONSTRAINT [PK_dbo.Users] PRIMARY KEY CLUSTERED ([ID] ASC)
 );
 
